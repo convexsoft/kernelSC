@@ -2,6 +2,8 @@
 
 This repository provides code for regularized attention kernel regression and its efficient solver for spectrum cartography. It addresses the ill-conditioning of attention-based exponential kernels. Numerical experiments demonstrate accelerated convergence and accurate radio map reconstruction.
 
+---
+
 ## Installation
 The following software and libraries are required:
 - Python 3.11
