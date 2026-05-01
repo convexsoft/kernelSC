@@ -1,6 +1,6 @@
-# KernelSC
+# Accelerating Regularized Attention Kernel Regression for Spectrum Cartography
 
-This repository provides code for regularized attention kernel regression and its efficient solver for spectrum cartography. It addresses the ill-conditioning of attention-based exponential kernels. Numerical experiments demonstrate accelerated convergence and accurate radio map reconstruction.
+This repository provides code for regularized attention kernel regression and an efficient learning-based solver for spectrum cartography. It addresses the ill-conditioning of attention-based exponential kernels. Numerical experiments demonstrate accelerated convergence and accurate radio map reconstruction. For more details, please refer to our paper "Accelerating Regularized Attention Kernel Regression for Spectrum Cartography" (https://doi.org/10.48550/arXiv.2604.25138)
 
 ---
 
@@ -37,3 +37,14 @@ From a terminal, navigate to the script directory and run:
 
 ```bash
 python numerical_example_in_algorithm_with_sionna.py
+```
+
+## Citation
+```bibtex
+@article{tao2026accelerating,
+  title={Accelerating Regularized Attention Kernel Regression for Spectrum Cartography},
+  author={Tao, Liping and Tan, Chee Wei},
+  journal={arXiv preprint arXiv:2604.25138},
+  year={2026}
+}
+```
